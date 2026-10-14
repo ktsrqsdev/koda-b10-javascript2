@@ -33,15 +33,14 @@ console.log(hello.world)
 
 const obj = {
     str: [
-        0, // indeks 0
-        1, // indeks 1
-        2, // indeks 2
-        [  // indeks 3
-            0, // indeks 3, 0
-            [  // indeks 3, 1
-                0, // indeks 3, 1, 0
-                1, // indeks 3, 1, 1
-                // indeks 3, 1, 2
+        0,
+        1,
+        2,
+        [
+            0,
+            [
+                0,
+                1,
                 {
                     man: [
                         {
